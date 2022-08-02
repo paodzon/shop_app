@@ -3,7 +3,7 @@ import 'package:shop_app/screens/screens.dart';
 
 class AppRouter {
   static Route onGenerateRoute(RouteSettings settings) {
-    print('Route is: ${settings.name}');
+    // print('Route is: ${settings}');
 
     switch (settings.name) {
       case HomeScreen.routeName:
@@ -12,7 +12,8 @@ class AppRouter {
         return CartScreen.route();
       case ProfileScreen.routeName:
         return ProfileScreen.route();
-
+      case CategoryScreen.routeName:
+        return CategoryScreen.route(settings.arguments);
       default:
         return _errorRoute();
     }

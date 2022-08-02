@@ -78,5 +78,29 @@ class Product extends Equatable {
         price: 2.99,
         isPopular: false,
         isRecommended: true),
+    Product(
+        name: 'Water #1',
+        category: 'Water',
+        imageUrl:
+            'https://images.unsplash.com/photo-1551753103-f121bd83be46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+        price: 2.99,
+        isPopular: false,
+        isRecommended: true),
+    Product(
+        name: 'Water #2',
+        category: 'Water',
+        imageUrl:
+            'https://images.unsplash.com/photo-1626403550716-297bd8215bd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+        price: 2.99,
+        isPopular: false,
+        isRecommended: true),
+    Product(
+        name: 'Water #3',
+        category: 'Water',
+        imageUrl:
+            'https://images.unsplash.com/photo-1626810333910-c4a297aff6ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80',
+        price: 2.99,
+        isPopular: false,
+        isRecommended: true),
   ];
 }

@@ -16,7 +16,7 @@ class Category extends Equatable {
         imageUrl:
             'https://domf5oio6qrcr.cloudfront.net/medialibrary/7909/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg'),
     Category(
-        name: 'Soft Drink',
+        name: 'Soft Drinks',
         imageUrl:
             'https://media.istockphoto.com/photos/soft-drinks-splashing-picture-id655123574?k=20&m=655123574&s=170667a&w=0&h=kNfet0U_qBsFdHDhpPHk8532R03rkniDu9fPXx_bLLM='),
     Category(

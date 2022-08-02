@@ -11,8 +11,8 @@ class ProductCard extends StatelessWidget {
       borderRadius: const BorderRadius.all(Radius.circular(20)),
       child: Card(
         child: SizedBox(
-          width: MediaQuery.of(context).size.width / 1.5,
-          height: 120,
+          width: MediaQuery.of(context).size.width / 1.3,
+          height: 140,
           child: Row(children: [
             Image.network(
               product.imageUrl,
@@ -20,7 +20,7 @@ class ProductCard extends StatelessWidget {
             ),
             Container(
               padding: const EdgeInsets.all(15),
-              width: MediaQuery.of(context).size.width / 2.6,
+              width: MediaQuery.of(context).size.width / 2,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.start,
