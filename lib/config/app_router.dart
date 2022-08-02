@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/screens/cart/cart_screen.dart';
-import 'package:shop_app/screens/home/home_screen.dart';
 import 'package:shop_app/screens/screens.dart';
 
 class AppRouter {
@@ -8,8 +6,6 @@ class AppRouter {
     print('Route is: ${settings.name}');
 
     switch (settings.name) {
-      case '/':
-        return HomeScreen.route();
       case HomeScreen.routeName:
         return HomeScreen.route();
       case CartScreen.routeName:
