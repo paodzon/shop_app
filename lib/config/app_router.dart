@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app/screens/screens.dart';
+import 'package:shop_app/screens/wishlist/wishlist_screen.dart';
 
 class AppRouter {
   static Route onGenerateRoute(RouteSettings settings) {
@@ -14,6 +15,8 @@ class AppRouter {
         return ProfileScreen.route();
       case CategoryScreen.routeName:
         return CategoryScreen.route(settings.arguments);
+      case WishlistScreen.routeName:
+        return WishlistScreen.route();
       default:
         return _errorRoute();
     }
